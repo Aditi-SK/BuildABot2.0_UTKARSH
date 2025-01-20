@@ -1,0 +1,4 @@
+#!/bin/bash 
+# Launch ROS2 Node for LiDAR System 
+source /opt/ros/foxy/setup.bash 
+ros2 run lidar_package lidar_node 
